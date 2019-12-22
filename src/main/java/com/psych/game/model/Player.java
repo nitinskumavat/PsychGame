@@ -20,4 +20,7 @@ public class  Player  extends Auditable {
     @NotBlank
     private String name;
 
+    @ManyToOne
+    private Game game;
+
 }
