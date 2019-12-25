@@ -1,4 +1,9 @@
 package com.psych.game.model;
 
-public class Admin {
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "admins")
+public class Admin extends Employee {
 }
